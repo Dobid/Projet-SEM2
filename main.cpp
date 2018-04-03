@@ -8,21 +8,28 @@ int main()
     grman::init();
     grman::set_pictures_path("images");
     std::string fichier;int ok=0;
+
+    grman::WidgetBox menu_fond;
     grman::WidgetButton nouveau;
     grman::WidgetButton charger;
-    grman::WidgetBox menu_fond;
+
     menu_fond.set_frame(0,0,1024,768);
     nouveau.set_frame(303,552,411,76);
     charger.set_frame(303,649,411,76);
+
     grman::WidgetImage image_fond;
-    grman::WidgetImage image_nouveau;
-    grman::WidgetImage image_charger;
+    //grman::WidgetImage image_nouveau;
+    //grman::WidgetImage image_charger;
+
     menu_fond.add_child(image_fond);
-    nouveau.add_child(image_nouveau);
-    charger.add_child(image_charger);
+    menu_fond.add_child(nouveau);
+    menu_fond.add_child(charger);
+
+    //image_fond.set_gravity_xy(grman::GravityX::Left,grman::GravityY::Up);
     image_fond.set_pic_name("fond.jpg");
-    image_nouveau.set_pic_name("creer.jpg");
-    image_charger.set_pic_name("charger.jpg");
+    //image_nouveau.set_pic_name("creer.jpg");
+    //image_charger.set_pic_name("charger.jpg");
+
     int arret=0;
     while(!key[KEY_ESC]&&arret==0)
     {
