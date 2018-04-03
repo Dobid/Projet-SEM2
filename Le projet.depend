@@ -47,11 +47,11 @@
 	<iostream>
 	<stack>
 
-1522769582 source:c:\users\quentin\desktop\projet info animaux\le projet\main.cpp
+1522778439 source:c:\users\quentin\desktop\projet info animaux\le projet\main.cpp
 	"grman/grman.h"
 	<iostream>
 	"Graphe.h"
-	"test.h"
+	<fstream>
 
 1522726736 c:\users\quentin\desktop\projet info animaux\le projet\test.h
 	"grman/grman.h"
@@ -61,55 +61,49 @@
 1522726791 source:c:\users\quentin\desktop\projet info animaux\le projet\test.cpp
 	"test.h"
 
-1522769211 source:c:\users\quentin\desktop\projet info animaux\le projet\sommet.cpp
+1522775529 source:c:\users\quentin\desktop\projet info animaux\le projet\sommet.cpp
 	"Sommet.h"
 	"string"
 
-1522769063 c:\users\quentin\desktop\projet info animaux\le projet\sommet.h
+1522775492 c:\users\quentin\desktop\projet info animaux\le projet\sommet.h
 	"grman/grman.h"
 	<iostream>
 
-1522769452 c:\users\quentin\desktop\projet info animaux\le projet\graphe.h
+1522776451 c:\users\quentin\desktop\projet info animaux\le projet\graphe.h
 	"Sommet.h"
 	"vector"
-
-1522769988 source:c:\users\quentin\desktop\projet info animaux\le projet\graphe.cpp
-	"Graphe.h"
-
-1522769811 source:c:\users\quentin\desktop\projet info animaux\le projet\arete.cpp
+	<fstream>
+	<sstream>
 	"Arete.h"
 
-1522769811 c:\users\quentin\desktop\projet info animaux\le projet\arete.h
-
-1522769811 source:c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\arete.cpp
-	"Arete.h"
-
-1522769811 c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\arete.h
-
-1522771796 source:c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\graphe.cpp
+1522776669 source:c:\users\quentin\desktop\projet info animaux\le projet\graphe.cpp
 	"Graphe.h"
 
-1522769452 c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\graphe.h
-	"Sommet.h"
-	"vector"
+1522774004 source:c:\users\quentin\desktop\projet info animaux\le projet\arete.cpp
+	"Arete.h"
 
-1522769063 c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\sommet.h
+1522774004 c:\users\quentin\desktop\projet info animaux\le projet\arete.h
 	"grman/grman.h"
-	<iostream>
 
-1522539041 c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\grman\grman.h
+1522780393 source:c:\users\david\projet-sem2\le projet\arete.cpp
+	"Arete.h"
+
+1522780393 c:\users\david\projet-sem2\le projet\arete.h
+	"grman/grman.h"
+
+1522780393 c:\users\david\projet-sem2\le projet\grman\grman.h
 	<allegro.h>
 	<string>
 	"grman_couleurs.h"
 	"coords.h"
 	"widget.h"
 
-1509222372 c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\grman\grman_couleurs.h
+1522780393 c:\users\david\projet-sem2\le projet\grman\grman_couleurs.h
 
-1522575424 c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\grman\coords.h
+1522780393 c:\users\david\projet-sem2\le projet\grman\coords.h
 	<cmath>
 
-1522636616 c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\grman\widget.h
+1522780393 c:\users\david\projet-sem2\le projet\grman\widget.h
 	"grman.h"
 	<iostream>
 	<string>
@@ -117,10 +111,24 @@
 	<algorithm>
 	<allegro.h>
 
-1522575069 source:c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\grman\coords.cpp
+1522780393 source:c:\users\david\projet-sem2\le projet\graphe.cpp
+	"Graphe.h"
+
+1522780393 c:\users\david\projet-sem2\le projet\graphe.h
+	"Sommet.h"
+	"vector"
+	<fstream>
+	<sstream>
+	"Arete.h"
+
+1522780393 c:\users\david\projet-sem2\le projet\sommet.h
+	"grman/grman.h"
+	<iostream>
+
+1522780393 source:c:\users\david\projet-sem2\le projet\grman\coords.cpp
 	"coords.h"
 
-1522698058 source:c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\grman\grman.cpp
+1522780393 source:c:\users\david\projet-sem2\le projet\grman\grman.cpp
 	<cmath>
 	<unordered_map>
 	<unordered_set>
@@ -134,15 +142,86 @@
 	<loadpng.h>
 	<jpgalleg.h>
 
-1522636919 source:c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\grman\widget.cpp
+1522780393 source:c:\users\david\projet-sem2\le projet\grman\widget.cpp
 	"widget.h"
 
-1522770947 source:c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\main.cpp
+1522780393 source:c:\users\david\projet-sem2\le projet\main.cpp
 	"grman/grman.h"
 	<iostream>
 	"Graphe.h"
+	<fstream>
 
-1522771478 source:c:\users\david\dropbox\ing2\informatique\projet sem 2\le projet\sommet.cpp
+1522780393 source:c:\users\david\projet-sem2\le projet\sommet.cpp
 	"Sommet.h"
 	"string"
+
+1522780393 source:c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\arete.cpp
+	"Arete.h"
+
+1522780393 c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\arete.h
+	"grman/grman.h"
+
+1522780393 c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522780393 c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\grman\grman_couleurs.h
+
+1522780393 c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\grman\coords.h
+	<cmath>
+
+1522780393 c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522780393 source:c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\graphe.cpp
+	"Graphe.h"
+
+1522780393 c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\graphe.h
+	"Sommet.h"
+	"vector"
+	<fstream>
+	<sstream>
+	"Arete.h"
+
+1522780393 c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\sommet.h
+	"grman/grman.h"
+	<iostream>
+
+1522780393 source:c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\grman\coords.cpp
+	"coords.h"
+
+1522780393 source:c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522788335 source:c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\grman\widget.cpp
+	"widget.h"
+
+1522780393 source:c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\sommet.cpp
+	"Sommet.h"
+	"string"
+
+1522789737 source:c:\users\david\dropbox\ing2\informatique\projet-sem2\le projet\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"Graphe.h"
+	<fstream>
 
