@@ -1,0 +1,87 @@
+# depslib dependency file v1.0
+1522575069 source:c:\users\quentin\desktop\projet info animaux\le projet\grman\coords.cpp
+	"coords.h"
+
+1522575424 c:\users\quentin\desktop\projet info animaux\le projet\grman\coords.h
+	<cmath>
+
+1522698058 source:c:\users\quentin\desktop\projet info animaux\le projet\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522539041 c:\users\quentin\desktop\projet info animaux\le projet\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1509222372 c:\users\quentin\desktop\projet info animaux\le projet\grman\grman_couleurs.h
+
+1522636616 c:\users\quentin\desktop\projet info animaux\le projet\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522636919 source:c:\users\quentin\desktop\projet info animaux\le projet\grman\widget.cpp
+	"widget.h"
+
+1522725034 source:c:\users\quentin\desktop\projet info animaux\le projet\src\test.cpp
+	"test.h"
+
+1522726616 c:\users\quentin\desktop\projet info animaux\le projet\include\test.h
+	"grman.h"
+	<iostream>
+	<stack>
+
+1522778439 source:c:\users\quentin\desktop\projet info animaux\le projet\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"Graphe.h"
+	<fstream>
+
+1522726736 c:\users\quentin\desktop\projet info animaux\le projet\test.h
+	"grman/grman.h"
+	<iostream>
+	<stack>
+
+1522726791 source:c:\users\quentin\desktop\projet info animaux\le projet\test.cpp
+	"test.h"
+
+1522775529 source:c:\users\quentin\desktop\projet info animaux\le projet\sommet.cpp
+	"Sommet.h"
+	"string"
+
+1522775492 c:\users\quentin\desktop\projet info animaux\le projet\sommet.h
+	"grman/grman.h"
+	<iostream>
+
+1522776451 c:\users\quentin\desktop\projet info animaux\le projet\graphe.h
+	"Sommet.h"
+	"vector"
+	<fstream>
+	<sstream>
+	"Arete.h"
+
+1522776669 source:c:\users\quentin\desktop\projet info animaux\le projet\graphe.cpp
+	"Graphe.h"
+
+1522774004 source:c:\users\quentin\desktop\projet info animaux\le projet\arete.cpp
+	"Arete.h"
+
+1522774004 c:\users\quentin\desktop\projet info animaux\le projet\arete.h
+	"grman/grman.h"
+
