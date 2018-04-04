@@ -20,13 +20,13 @@ class Graphe
     protected:
 
     private:
-        grman::WidgetBox m_box_outils;
+        grman::WidgetBox m_interface_fond;
         grman::WidgetButton m_bouton_sauvegarder;
-        grman::WidgetImage m_bouton_sauvegarder_image;
         grman::WidgetButton m_bouton_supprimer;
-        grman::WidgetImage m_bouton_supprimer_image;
-        grman::WidgetButton m_bouton_ajouter;
-        grman::WidgetImage m_bouton_ajouter_image;
+        grman::WidgetButton m_bouton_add_sommet;
+        grman::WidgetButton m_bouton_add_arete;
+        grman::WidgetImage m_fond_image;
+
         std::string m_fichier;
         std::vector<Sommet*> Sommets;
         std::vector<Arete*> Aretes;

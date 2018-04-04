@@ -4,21 +4,27 @@ Graphe::Graphe(std::string fichier)
 {
     m_fichier=fichier;
     Charger_Graphe(fichier);
-    m_box_outils.set_frame(1, 1, 200, 766);
-    m_box_outils.set_bg_color(BLEUCLAIR);
-    m_box_outils.add_child(m_bouton_sauvegarder);
-    m_box_outils.add_child(m_bouton_supprimer);
-    m_box_outils.add_child(m_bouton_ajouter);
-    m_bouton_sauvegarder.set_frame(1,1,198,198);
-    m_bouton_supprimer.set_frame(1,200,198,198);
-    m_bouton_ajouter.set_frame(1,400,198,198);
-    m_bouton_sauvegarder.set_bg_color(FUCHSIA);
-    m_bouton_supprimer.add_child(m_bouton_supprimer_image);
-    m_bouton_ajouter.add_child(m_bouton_ajouter_image);
-    m_bouton_sauvegarder.add_child(m_bouton_sauvegarder_image);
-    m_bouton_sauvegarder_image.set_pic_name("sauvegarder.jpg");
-    m_bouton_supprimer_image.set_pic_name("supprimer.jpg");
-    m_bouton_ajouter_image.set_pic_name("ajouter.jpg");
+
+    m_interface_fond.set_frame(0,0,1024,768);
+    m_bouton_sauvegarder.set_frame(6,5,88,78);
+    m_bouton_add_sommet.set_frame(116,5,88,78);
+    m_bouton_add_arete.set_frame(273,5,88,78);
+    m_bouton_supprimer.set_frame(418,5,88,78);
+
+    m_interface_fond.add_child(m_fond_image);
+    m_interface_fond.add_child(m_bouton_sauvegarder);
+    m_interface_fond.add_child(m_bouton_add_arete);
+    m_interface_fond.add_child(m_bouton_add_sommet);
+    m_interface_fond.add_child(m_bouton_supprimer);
+
+
+
+    //m_bouton_sauvegarder.set_bg_color(FUCHSIA);
+
+    m_fond_image.set_pic_name("interface.jpg");
+    //m_bouton_sauvegarder_image.set_pic_name("sauvegarder.jpg");
+    //m_bouton_supprimer_image.set_pic_name("supprimer.jpg");
+    //m_bouton_ajouter_image.set_pic_name("ajouter.jpg");
 }
 Graphe::~Graphe()
 {
@@ -46,16 +52,16 @@ void Graphe::Charger_Graphe(std::string fichier)
 }
 void Graphe::update()
 {
-    m_box_outils.update();
+    m_interface_fond.update();
     if ( m_bouton_sauvegarder.clicked())
         {
             Sauver_Graphe();
         }
-    if(m_bouton_ajouter.clicked())
+    if(m_bouton_add_sommet.clicked())
     {
         Nouveau_Sommet();
     }
-    if(m_bouton_supprimer.clicked())
+    if(m_bouton_add_arete.clicked())
     {
         Nouvelle_Arete();
     }

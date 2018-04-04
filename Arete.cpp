@@ -1,5 +1,7 @@
 #include "Arete.h"
+
 using namespace std;
+
 Arete::Arete(grman::WidgetBox& sommet1,grman::WidgetBox& sommet2,int lsommet1,int lsommet2)
 {
     m_utilise=1;
