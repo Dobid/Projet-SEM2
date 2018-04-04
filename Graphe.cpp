@@ -129,7 +129,7 @@ void Graphe::Nouvelle_Arete()
     }
     if(nbr_selec1!=1||nbrselec2!=1)
     {
-        cout<<"Il n'y a pas 2 sommets de couleur différente selectionnes, creation d arete impossible"<<endl;
+        cout<<"Il n'y a pas 2 sommets de couleur differente selectionnes, creation d arete impossible"<<endl;
     }
     else
     {
