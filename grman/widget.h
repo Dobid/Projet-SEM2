@@ -221,6 +221,7 @@ class WidgetText : public Widget
     public :
         WidgetText(std::string message="") { m_border=m_padding=0; set_message(message); }
         virtual void draw();
+        void set_text_color(int color){m_color=color;}
 
         void set_message(std::string message="");
         std::string get_message() { return m_message; }
@@ -398,7 +399,6 @@ struct ArrowItem
     ArrowItem(ArrowItemType type, double position, double size=14.0, double proportion=0.5) :
         m_type(type), m_position(position), m_size(size), m_proportion(proportion) {}
 };
-
 class WidgetEdge : public Widget
 {
     protected :
@@ -413,7 +413,7 @@ class WidgetEdge : public Widget
         // Elements de décoration : pointes de flèches, rond etc...
         std::vector<ArrowItem> m_items;
 
-        int m_color = GRISSOMBRE;
+        int m_color =GRISSOMBRE;
         int m_thickness = 2;
 
         // Position relative des éventuels Widgets enfants le long de l'arc, 0 origine, 0.5 milieu, 1.0 destination
@@ -428,7 +428,7 @@ class WidgetEdge : public Widget
 
         void attach_from(Widget& from) { m_attach[0] = &from; }
         void attach_to(Widget& to) { m_attach[1] = &to; }
-
+        void set_m_color(int color){m_color=color;}
         void reset_no_items() { m_items.clear(); }
         void reset_arrow() { m_items = { {ArrowItemType::Arrow, 1.0} }; }
         void reset_arrow_with_bullet() { m_items = { {ArrowItemType::Arrow, 1.0},
@@ -442,6 +442,26 @@ class WidgetEdge : public Widget
 
         void set_children_position(double rel_pos) { m_children_position = rel_pos; }
         void set_children_lateral(double abs_lat) { m_children_lateral = abs_lat; }
+};
+/***************************************************
+                    Clavier
+****************************************************/
+class WidgetClavier : public Widget
+{
+    protected :
+        WidgetBox box;
+        WidgetText text;
+        WidgetText curseur;
+        std::string chaine;
+        int m_bloque = 1;
+        int m_curseur = 0;
+        std::vector<std::string> prec;
+    public :
+        void initialiser(int x, int y);
+        std::string recup_chaine();
+        virtual void draw();
+        int bloque(){return m_bloque;}
+
 };
 
 
